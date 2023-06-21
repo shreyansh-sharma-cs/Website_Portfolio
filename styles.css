@@ -1,17 +1,25 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', 'sans-serif';
     box-sizing: border-box;
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 body{
     background: linear-gradient(45deg, black, grey); 
     color: white;
-
 }
 
 #header{
@@ -78,7 +86,6 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ababaa;
-    height: 100vh;
 }
 
 .row{
@@ -147,9 +154,8 @@ nav ul li a:hover::after{
 
 /* third page */
 
-.projects{
+#projects{
     padding: 30px 0;
-
 }
 .projects-list{
     display: grid;
@@ -357,7 +363,7 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
-    nav.fa-solid{
+    nav .fa-solid{
         display: block;
         font-size: 25px;
     }
@@ -384,14 +390,14 @@ nav .fa-solid{
 
     }
     .sub-title{
-        font-size: 40px;
+        font-size: 35px;
     }
     .about-col-1, .about-col-2{
 
         flex-basis: 100%;
     }
     .about-col-1{
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
     .about-col-2{
         font-size: 14px;
@@ -407,7 +413,13 @@ nav .fa-solid{
         font-size: 14px;
     }
     
+}
 
-
+@media only screen and (max-width:390px) {
     
+    .about-col-2.p{
+        font-size: 8px;
+        width: 300px
+        ;
+    }
 }
