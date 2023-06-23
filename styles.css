@@ -5,7 +5,6 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-    overflow-y: hidden; 
     scroll-behavior: smooth;
 }
 *{
@@ -371,6 +370,9 @@ nav .fa-solid{
     .header-text h1{
         font-size: 30px;
     }
+    .mainheading{
+        font-size: 28px;
+    }
     nav .fa-solid{
         display: block;
         font-size: 25px;
@@ -424,10 +426,12 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width:380px) {
-    
-    .about-col-2.p{
-        font-size: 8px;
-        width: 85vw
-        ;
+
+    .intro{
+        width: 90%;
+
     }
-}
+    .mainheading{
+        font-size: 25px;
+    }
+    }
