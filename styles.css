@@ -423,11 +423,11 @@ nav .fa-solid{
     
 }
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width:380px) {
     
     .about-col-2.p{
         font-size: 8px;
-        width: 300px
+        width: 85vw
         ;
     }
 }
