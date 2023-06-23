@@ -8,6 +8,7 @@ html,body
     scroll-behavior: smooth;
     background: linear-gradient(50deg, black, red); 
     color: white;
+    background-attachment: fixed;
 }
 *{
     margin: 0;
