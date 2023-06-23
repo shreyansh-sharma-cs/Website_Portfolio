@@ -6,6 +6,8 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     scroll-behavior: smooth;
+    background: linear-gradient(50deg, black, red); 
+    color: white;
 }
 *{
     margin: 0;
@@ -17,10 +19,10 @@ html,body
     scroll-behavior: smooth;
 } */
 
-body{
+/* body{
     background: linear-gradient(50deg, black, red); 
     color: white;
-}
+} */
 
 #header{
     width: 100%;
