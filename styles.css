@@ -23,15 +23,32 @@ html,body
     color: white;
 } */
 
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.mainleft{
+    flex-basis: 35%;
+}
+
+.mainright img{
+    width: 80%;
+}
+.mainright{
+    flex-basis: 60%;
+}
+
 #header{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .container{
     padding: 10px 10%;
     /* color: red; */
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -362,10 +379,12 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1100px) {
 
+    
+   
     .header-text{
-        margin-top: 100%;
+        margin-top: 10%;
         font-size: 16px;
     }
     .header-text h1{
@@ -378,6 +397,7 @@ nav .fa-solid{
         display: block;
         font-size: 25px;
     }
+    
     nav ul {
         background: #ff004f;
         position: fixed;
@@ -423,10 +443,22 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+
+
+    .main{
+        flex-direction: column-reverse;
+    }
+    .mainleft, .mainright{
+
+        flex-basis: 100%;
+    }
+    .mainleft{
+        margin-bottom: 35px;
+    }
     
 }
 
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:400px) {
 
     .intro{
         width: 90%;
