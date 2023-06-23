@@ -382,7 +382,9 @@ nav .fa-solid{
 @media only screen and (max-width:1100px) {
 
     
-   
+    .intro{
+        text-align: justify;
+    }
     .header-text{
         margin-top: 10%;
         font-size: 16px;
@@ -462,9 +464,11 @@ nav .fa-solid{
 
     .intro{
         width: 90%;
+        text-align: justify;
 
     }
     .mainheading{
         font-size: 25px;
     }
+    
     }
