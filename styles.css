@@ -4,7 +4,7 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     scroll-behavior: smooth;
-    background: linear-gradient(50deg, black, red); 
+    background: linear-gradient(50deg, black, rgb(203, 3, 3)); 
     color: white;
     background-attachment: fixed;
 }
